@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    ".*": true,
+    "next*": true,
+    "package*": true,
+    "tsconfig.json": true,
+    "yarn*": true,
+
+  },
+
+
+
+  "cSpell.words": [
+    "apli",
+    "deslogar",
+    "signup",
+    "toastify"
+  ]
+}

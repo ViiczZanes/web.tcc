@@ -1,0 +1,83 @@
+.menuContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  gap: 2rem
+}
+
+.title{
+  color: var(--gray-100)
+}
+
+.categoryTitle{
+  color: var(--gray-100);
+  margin-bottom: 2rem
+}
+
+.card {
+  background-color: #101026;
+  width: 264px !important; 
+  height: 276px !important;
+  border: 1px solid #101026;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  position: relative; /* Adicionado para permitir posicionamento absoluto do botão de exclusão */
+  margin-bottom: 2rem;
+}
+
+
+.imagem {
+  background-color: #e4dfdf;
+  height: 55%;
+  border-radius: 8px 8px 0 0;
+}
+
+.img {
+  object-fit: contain;
+  width: 264px;
+  height: 136px;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 5px;
+}
+
+.info h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  color: #FFFFFF;
+}
+
+.info small {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #9D9797;
+}
+
+.price {
+  margin-top: auto;
+  color: #9D9797;
+  margin-left: auto;
+}
+
+.price span {
+  color: green;
+}
+
+.deleteButton {
+  align-self: flex-end; /* Posiciona o botão no canto superior direito */
+  position: absolute; /* Posiciona o botão de forma absoluta */
+  top: 0.5rem; /* Define a distância do topo */
+  right: 0.5rem; /* Define a distância da direita */
+  font-size: 1.4rem;
+  color: var(--red-900);
+  cursor: pointer;
+}
