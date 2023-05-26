@@ -8,7 +8,7 @@ export function setupAPIClient(ctx = undefined) {
   let cookies = parseCookies(ctx);
 
   const api = axios.create({
-    baseURL: 'http://54.145.122.55:3333',
+    baseURL: 'https://api.viiczz.tech',
     // baseURL: 'http://localhost:3333',
     headers: {
       Authorization: `Bearer ${cookies['@KVOrders.token']}`
