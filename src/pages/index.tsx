@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 // Styles & Logo & Ícones
 import styles from '../../styles/index.module.scss';
-import logoImg from '../../public/logo.png';
+import logoImg from '../../public/logoprincipal.png';
 
 // Componentes Próprios
 import { Input } from '../components/Form/Input/Input'
