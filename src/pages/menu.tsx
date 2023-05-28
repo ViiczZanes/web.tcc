@@ -155,7 +155,7 @@ const Cardapio = ({ categories }) => {
     dots: true,
     infinite: categories.products > 3,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 3,
     responsive: [
       {
