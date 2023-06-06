@@ -64,10 +64,10 @@ const Users = ({ usersList }) => {
                 Email
               </th>
               <th>
-                Cargo
+                Tipo
               </th>
               <th className={styles.adm}>
-                Role
+                Admin
               </th>
               <th>
               </th>
